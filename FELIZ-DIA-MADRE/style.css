@@ -35,7 +35,7 @@ body {
     position: absolute;
     left: 0;
     right: 0;
-    top: 40%;
+    top: 70%;
     bottom: 0;
     margin: auto;
     -moz-transform: scale(0.6);
@@ -578,7 +578,7 @@ body {
 
   #mensajes{
     position: absolute;
-    bottom: 450px;
+    bottom: 320px;
     width: 100%;
     text-align: center;
     color: white;
