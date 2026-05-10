@@ -35,7 +35,7 @@ body {
     position: absolute;
     left: 0;
     right: 0;
-    top: 80%;
+    top: 85%;
     bottom: 0;
     margin: auto;
     -moz-transform: scale(0.6);
@@ -579,7 +579,7 @@ body {
   #mensajes{
 position: absolute;
 
-    top: 250px;
+    top: 350px;
     left: 50%;
     transform: translateX(-50%);
 
