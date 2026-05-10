@@ -2,7 +2,8 @@ body {
     height: 100%;
     width: 100%;
     background: #122139;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
   
   h2{
@@ -35,13 +36,15 @@ body {
     position: absolute;
     left: 0;
     right: 0;
-    top: 70%;
+    top: 55%;
     bottom: 0;
     margin: auto;
     -moz-transform: scale(0.6);
     -ms-transform: scale(0.6);
     -webkit-transform: scale(0.6);
     transform: scale(0.6);
+
+    transform-origin: center;
   }
   .container div {
     position: absolute;
