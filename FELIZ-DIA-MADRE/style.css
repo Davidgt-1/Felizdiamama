@@ -577,14 +577,30 @@ body {
   }
 
   #mensajes{
-    position: absolute;
-    bottom: 250px;
-    width: 100%;
+position: absolute;
+
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 85%;
+
     text-align: center;
+
     color: white;
-    font-size: 28px;
+
+    font-size: 30px;
+
     font-family: cursive;
+    font-weight: bold;
+
     transition: opacity 1s ease;
-    text-shadow: 0 0 10px rgba(255,255,255,0.8);
+
+    text-shadow:
+    0 0 10px rgba(255,255,255,0.8),
+    0 0 20px rgba(255,182,217,0.7);
+
     padding: 20px;
+
+    line-height: 1.4;
 }
